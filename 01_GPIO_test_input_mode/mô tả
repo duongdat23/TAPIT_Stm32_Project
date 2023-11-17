@@ -1,0 +1,7 @@
+test chức năng GPIO input: 
+input floating 
+input pull_up
+input pull_dow
+trở kéo lên và xuống, bằng cách kiểm tra 1 chân trong 3 trường hợp 
+- dừng ở vòng lặp while(1) sau đó sang phần đọc SFRs chọn IDR của GPIO tương ứng
+- nhấn RD để đọc
